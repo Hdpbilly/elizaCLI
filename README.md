@@ -1,6 +1,6 @@
 # Eliza CLI
 
-A command-line interface for the Eliza framework built with Ratatui in Rust.
+A command-line interface for the [Eliza framework](https://github.com/ai16z/eliza) built with Ratatui in Rust.
 
 ## Features
 
