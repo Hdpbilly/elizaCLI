@@ -31,3 +31,15 @@ See the `docs/` directory for detailed documentation:
 - [Commands](docs/COMMANDS.md)
 - [Plugins](docs/PLUGINS.md)
 - [UI](docs/UI.md)
+
+## Development Plan
+
+This project follows a phased development approach:
+
+1. Foundation & Basic State Management 
+2. Command System & Data Layer
+3. UI Components & Core Functionality 
+4. Plugin System & Advanced Features 
+5. Polish & Documentation 
+
+For detailed development information, see [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md).
