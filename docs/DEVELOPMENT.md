@@ -2,7 +2,7 @@
 
 # Eliza CLI Development Plan
 
-## Phase 1: Foundation & Basic State Management
+## Area 1: Foundation & Basic State Management
 
 ### 1.1 Project Setup & Core Architecture
 - Initialize project structure
@@ -25,7 +25,7 @@
 - Add basic input handling
 - Test terminal setup and event handling
 
-## Phase 2: Command System & Data Layer
+## Area 2: Command System & Data Layer
 
 ### 2.1 Command Framework
 - Implement Command trait
@@ -49,7 +49,7 @@
 - Add system information commands
 - Write integration tests for commands
 
-## Phase 3: UI Components & Core Functionality
+## Area 3: UI Components & Core Functionality
 
 ### 3.1 Core UI Components
 - Implement UIComponent trait
@@ -73,7 +73,7 @@
 - Create MetricsComponent
 - Write tests for display components
 
-## Phase 4: Plugin System & Advanced Features
+## Area 4: Plugin System & Advanced Features
 
 ### 4.1 Plugin Architecture
 - Implement plugin loading system
@@ -96,7 +96,7 @@
 - Add performance metrics
 - Conduct performance testing
 
-## Phase 5: Polish & Documentation
+## Area 5: Polish & Documentation
 
 ### 5.1 User Experience
 - Add keyboard shortcuts
@@ -137,7 +137,7 @@
 
 ## Dependencies to Introduce by Phase
 
-### Phase 1: Foundation
+### Area 1: Foundation
 - ratatui
 - crossterm
 - tokio
@@ -146,20 +146,20 @@
 - tracing-appender
 - parking_lot      
 
-### Phase 2: Command & Data
+### Area 2: Command & Data
 - async-trait
 - thiserror
 - anyhow
 - tracing-futures   # For async operation tracing
 
-### Phase 3: UI & Core
+### Area 3: UI & Core
 - serde
 - serde_json
 - uuid
 - chrono         
 - dashmap         
 
-### Phase 4: Plugins & Advanced
+### Area 4: Plugins & Advanced
 - libloading
 - tracing-test   
 
